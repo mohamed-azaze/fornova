@@ -1,0 +1,20 @@
+{
+    "name": "wdd/fornova",
+    "description": "for nova project",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wdd\\fornova\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wdd\\fornova\\FornovaServiceProvider"
+            ]
+        }
+    }
+}
